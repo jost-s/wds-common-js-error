@@ -1,0 +1,20 @@
+{
+  "name": "web-dev-server-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "bundle": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@web/dev-server": "^0.2.1",
+    "@web/dev-server-rollup": "^0.5.0",
+    "rollup": "^3.21.0"
+  }
+}
